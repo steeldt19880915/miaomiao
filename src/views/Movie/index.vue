@@ -3,7 +3,7 @@
     <HeaderComponent title="喵喵电影" />
     <div class="content_title">
       <div class="menu">
-        <router-link tag="span" to="/movie/city">城市</router-link>
+        <router-link tag="span" to="/movie/city" class="city">城市</router-link>
         <div class="menu_tabs">
           <router-link tag="div" to="/movie/nowPlaying" class="hot_item">正在热映</router-link>
           <router-link tag="div" to="/movie/comingSoon" class="hot_item">即将上映</router-link>
