@@ -1,5 +1,9 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
+import movieRouter from './movie' // 电影模块化模块路由
+import cinemaRouter from './cinema' // 影院模块化模块路由
+import mineRouter from './mine' // 我的模块化模块路由
+
 
 Vue.use(VueRouter)
 
@@ -17,6 +21,10 @@ const routes = [
   //   // which is lazy-loaded when the route is visited.
   //   component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
   // }
+
+  movieRouter,
+  cinemaRouter,
+  mineRouter
 ]
 
 const router = new VueRouter({
