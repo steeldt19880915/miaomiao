@@ -1,4 +1,4 @@
 export default {
-  path: '/',
+  path: '*',
   redirect: '/movie'
 }
