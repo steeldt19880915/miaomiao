@@ -1,6 +1,6 @@
 <template>
   <div>
-    <HeaderComponent />
+    <HeaderComponent title="我的喵喵" />
     <div>mine</div>
     <TabberComponent />
   </div>

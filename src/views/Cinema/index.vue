@@ -1,6 +1,6 @@
 <template>
   <div>
-    <HeaderComponent />
+    <HeaderComponent title="喵喵影院" />
     <div>cineam</div>
     <TabbarComponent />
   </div>

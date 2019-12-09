@@ -1,14 +1,20 @@
 <template>
   <div class="main">
     <div class="header">
-      <h1>奥斯卡影城-欢迎您!</h1>
+      <h1>{{ title }}</h1>
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  name:'Header'
+  name:'Header',
+  props: {
+    title: {
+      type: String,
+      default: '喵喵电影'
+    }
+  }
 }
 </script>
 
