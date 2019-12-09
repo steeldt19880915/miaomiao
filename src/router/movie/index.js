@@ -17,6 +17,10 @@ export default {
     {
       path:'nowPlaying', // 正在热映
       component: () => import('@/components/NowPlaying')
+    },
+    {
+      path: '/movie',
+      redirect: '/movie/nowPlaying'
     }
   ]
 }
